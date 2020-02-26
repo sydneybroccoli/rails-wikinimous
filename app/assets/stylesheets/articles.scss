@@ -1,0 +1,88 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+  display: flex;
+  padding: 20px;
+  margin: 0;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.home-link a, .new-link a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+
+  &:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+.article {
+  // display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid rgba(171,171,171,1);
+  box-shadow: 5px 5px 5px 0px rgba(171,171,171,1);
+}
+.article-title {
+  text-transform: uppercase;
+  & a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0, 37, 148, 1);
+  }
+  & a:hover {
+    color: rgba(0, 37, 148, 0.8);
+  }
+}
+.article-content {
+
+}
+
+.article-page {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+}
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.page-content {
+  padding: 10px;
+  border: 1px solid rgba(171,171,171,1);
+}
+
+.link-container {
+  text-align: right;
+  padding: 20px;
+
+  & a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0, 37, 148, 1);
+  }
+  & a:hover {
+    color: rgba(0, 37, 148, 0.8);
+  }
+}
+
+.form-container {
+  margin: 20px auto;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid rgba(171,171,171,1);
+  box-shadow: 5px 5px 5px 0px rgba(171,171,171,1);
+}
+.form-title {
+  display: center;
+}
+.form-content {
+
+}
+.form-submit {
+}

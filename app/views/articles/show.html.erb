@@ -1,0 +1,22 @@
+<div class="header">
+  <div class="home-link">
+    <%= link_to 'Wikinimous', articles_path %>
+  </div>
+  <div class="new-link">
+    <%= link_to 'New Article', new_article_path %>
+  </div>
+</div>
+
+<div class="link-container">
+  <%= link_to 'EDIT', edit_article_path %>
+</div>
+
+<div class="article-page">
+  <div class="page-title">
+    <h3><%= @article.title %></h3>
+  </div>
+  <div class="page-content">
+    <p>"<%= @article.content %>"</p>
+  </div>
+</div>
+

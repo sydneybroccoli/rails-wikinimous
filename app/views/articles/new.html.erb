@@ -1,0 +1,19 @@
+<div class="header">
+  <div class="home-link">
+    <%= link_to 'Wikinimous', articles_path %>
+  </div>
+  <div class="new-link">
+    <%= link_to 'New Article', new_article_path %>
+  </div>
+</div>
+
+<!-- <div class="link-container">
+  <%#= link_to 'GO HOME', articles_path %>
+</div> -->
+
+<div class="form-container">
+  <%=  render 'form', article: @article %>
+</div>
+
+
+
